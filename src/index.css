@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url('../node_modules/font-awesome/css/font-awesome.min.css');
+@import url('../node_modules/animate.css/animate.min.css');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.customLinks {
+  text-decoration: none;
+}
+
+.circularProgressWrapper {
+  display: flex;
+  top: 0;
+  position: fixed;
+  align-items: center;
+  min-height: 99.9vh;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.customAppBar {
+  background: #75890c;
+  background: -moz-linear-gradient(left, #75890c 0%, #a4b357 100%);
+  background: -webkit-linear-gradient(left, #75890c 0%, #a4b357 100%);
+  background: linear-gradient(to right, #75890c 0%, #a4b357 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75890c', endColorstr='#a4b357', GradientType=1);
+}
+
+.appBarFabBtn {
+  background-color: grey;
+}
+
+.appTextField label, .appCheckBox label {
+  color: #7C8F17 !important;
+}
+
+.appCheckBox {
+  margin: 0.75em 0;
+}
+
+.appTextField hr:last-of-type {
+  border-color: #7C8F17 !important;
+}
+
+.customAppBar .fa {
+  font-size: 1.45em;
+}
+
+.hintText {
+  color: #75890c;
+  font-size: 0.75em;
+}
+
+.hintText:hover {
+  cursor: pointer;
+}
+
+.hiddenElem {
+  display: none;
+}
+
+.centerAlignedElems {
+  text-align: center;
+}
+
+.rightAlignedElems {
+  text-align: right;
+}
+
+.centerAlignedElems {
+  text-align: center;
+}
+
+.appBarIcon path {
+  fill: white;
+}
+
+.orderedProductsSummaryMenu {
+  margin: 10px;
+}
+
+.container-emptyCart {
+  width: 60%;
+  margin: 4em auto;
+  padding: 2em;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: none;
+  letter-spacing: 3px;
+  transform: scale(1);
+  background-color: white;
+  transition: all 0.8s;
+}
+
+.container-emptyCart:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 5px darkgray;
+  background-color: lightgray;
+  border-radius: 0.25em !important;
+  cursor: pointer;
+}
+
+.allOrdersWrapper {
+  width: 70%;
+  margin: 3em auto;
+}

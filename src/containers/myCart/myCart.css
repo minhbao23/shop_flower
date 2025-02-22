@@ -1,0 +1,55 @@
+.cartDetailsContainer {
+    width: 65%;
+    margin: 3em auto;
+    border-radius: 0.25em !important;
+    padding: 1em;
+}
+
+.shoppingCartItem {
+    display: block;
+    padding: 1em;
+}
+
+.wrapperEl {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.titleContainer {
+    width: 48%;
+    text-align: left;
+}
+
+tbody .titleContainer {
+    padding-left: 1em;
+}
+
+tfoot td {
+    padding: 2em 0 0 0;
+}
+
+.qtyContainer,
+.unitPriceContainer {
+    width: 18%;
+    text-align: center;
+}
+
+.cartTable {
+    border-collapse: collapse;
+}
+
+.incContainer,
+.decContainer {
+    width: 25%;
+    text-align: center;
+}
+
+.bodyList td {
+    border-bottom: 1px solid lightgray;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+.checkoutBtnContainer {
+    margin: 3em 0 1em 0;
+}
